@@ -44,7 +44,7 @@ function renderPlayers(players, container) {
           '</div>' +
           '<div class="player-card__flip-hint">' +
             '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>' +
-            '<span>Hover for stats</span>' +
+            '<span>' + (isTouchDevice() ? 'Tap for stats' : 'Hover for stats') + '</span>' +
           '</div>' +
         '</div>' +
         // --- BACK FACE ---
@@ -74,3 +74,14 @@ function flipStat(value, label) {
     '</div>'
   );
 }
+
+function isTouchDevice() {
+  return ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+}
+
+// Tap-to-flip on touch devices, click-to-flip on all devices as fallback
+document.addEventListener('click', function (e) {
+  var card = e.target.closest('.player-card');
+  if (!card) return;
+  card.classList.toggle('player-card--flipped');
+});

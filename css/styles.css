@@ -738,7 +738,15 @@ img {
   transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.player-card:hover .player-card__inner {
+/* Hover flip on devices with a pointer (not touch-only) */
+@media (hover: hover) {
+  .player-card:hover .player-card__inner {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Tap/click flip (toggled via JS) */
+.player-card--flipped .player-card__inner {
   transform: rotateY(180deg);
 }
 
