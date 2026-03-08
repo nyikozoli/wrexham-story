@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wrexham-story.pages.dev/sitemap.xml
+Sitemap: https://wrexham-story.nyikozoli.workers.dev/sitemap.xml
