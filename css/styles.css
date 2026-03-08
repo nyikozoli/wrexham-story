@@ -717,6 +717,7 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  overflow: hidden;
 }
 
 /* --- 3D Flip Player Cards --- */
@@ -1101,6 +1102,23 @@ img {
 
   .player-card {
     max-width: none;
+    width: 100%;
     height: 440px;
+  }
+
+  .player-card__back {
+    padding: 24px 16px;
+  }
+
+  .player-card__back-stat-value {
+    font-size: 24px;
+  }
+
+  .player-card__back-stats {
+    gap: 16px;
+  }
+
+  .player-card__back-tagline {
+    font-size: 12px;
   }
 }
