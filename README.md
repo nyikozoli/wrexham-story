@@ -24,8 +24,27 @@ Pure vanilla HTML, CSS, and JavaScript. No frameworks. No build step. No depende
 
 ## Run Locally
 
+This is a static site — just serve the files with any HTTP server. Pick whichever you have installed:
+
+**Option 1 — Just open the file** (simplest, no install needed):
+```
+Open index.html directly in your browser (double-click the file).
+```
+> ⚠️ Some browsers block `fetch()` from `file://` URLs. If data doesn't load, use one of the server options below.
+
+**Option 2 — Node.js** (npx, no install needed):
+```bash
+npx serve .
+```
+
+**Option 3 — Python:**
 ```bash
 python -m http.server 3000
+```
+
+**Option 4 — PHP:**
+```bash
+php -S localhost:3000
 ```
 
 Then open [http://localhost:3000](http://localhost:3000).
