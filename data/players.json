@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Paul Mullin",
+    "position": "Striker",
+    "seasons": "2021 \u2014 2025",
+    "appearances": 170,
+    "goals": 108,
+    "tagline": "The Hollywood signing who delivered. League Two top scorer turned fifth-tier record-breaker \u2014 38 league goals in the title-winning 2022-23 season."
+  },
+  {
+    "name": "Phil Parkinson",
+    "position": "Manager",
+    "seasons": "2021 \u2014 present",
+    "appearances": null,
+    "goals": null,
+    "tagline": "The promotion specialist. Delivered three consecutive promotions from the National League to the Championship \u2014 an unprecedented feat in English football history."
+  },
+  {
+    "name": "Ollie Palmer",
+    "position": "Striker",
+    "seasons": "2022 \u2014 2025",
+    "appearances": 156,
+    "goals": 46,
+    "tagline": "The fan favourite target man whose partnership with Mullin powered three promotions. Signed for a reported club-record fee in January 2022."
+  },
+  {
+    "name": "Ben Tozer",
+    "position": "Centre-Back / Captain",
+    "seasons": "2021 \u2014 2024",
+    "appearances": 60,
+    "goals": 3,
+    "tagline": "The iconic long-throw specialist and club captain. Named in the National League Team of the Year. Ever-present in the 2022-23 title-winning campaign."
+  },
+  {
+    "name": "Luke Young",
+    "position": "Midfielder",
+    "seasons": "2018 \u2014 2024",
+    "appearances": 259,
+    "goals": 22,
+    "assists": 30,
+    "tagline": "The heartbeat of the midfield and co-captain. A pre-takeover player who became integral to the new era across 259 appearances and two promotions."
+  },
+  {
+    "name": "Ben Foster",
+    "position": "Goalkeeper",
+    "seasons": "2023",
+    "appearances": 13,
+    "goals": 0,
+    "cleanSheets": 5,
+    "tagline": "Former England and Manchester United keeper who came out of retirement at 39 to help clinch the National League title. Wrexham's oldest-ever league player."
+  },
+  {
+    "name": "Elliot Lee",
+    "position": "Attacking Midfielder",
+    "seasons": "2022 \u2014 present",
+    "appearances": 152,
+    "goals": 41,
+    "assists": 22,
+    "tagline": "Scored twice on debut. Named in the National League Team of the Year. A key creative force across three promotions."
+  },
+  {
+    "name": "Arthur Okonkwo",
+    "position": "Goalkeeper",
+    "seasons": "2023 \u2014 present",
+    "appearances": 80,
+    "goals": 0,
+    "cleanSheets": 30,
+    "tagline": "The former Arsenal academy keeper who became Wrexham's No. 1 after Ben Foster's retirement. 14 league clean sheets during the League Two promotion campaign."
+  }
+]

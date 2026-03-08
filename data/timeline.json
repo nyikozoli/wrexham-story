@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2020-09-24",
+    "title": "Hollywood Comes Calling",
+    "description": "Ryan Reynolds and Rob McElhenney announce their interest in buying Wrexham AFC, sending shockwaves through the football world.",
+    "category": "ownership"
+  },
+  {
+    "date": "2020-11-16",
+    "title": "The Trust Says Yes",
+    "description": "The Wrexham Supporters Trust votes 98.6% in favour of the takeover. A new era begins.",
+    "category": "ownership"
+  },
+  {
+    "date": "2021-02-09",
+    "title": "Takeover Complete",
+    "description": "Reynolds and McElhenney officially complete their purchase of Wrexham AFC. The new era begins.",
+    "category": "ownership"
+  },
+  {
+    "date": "2021-07-01",
+    "title": "Phil Parkinson Appointed",
+    "description": "Experienced manager Phil Parkinson is appointed as Wrexham boss, bringing EFL know-how to the National League.",
+    "category": "milestone"
+  },
+  {
+    "date": "2021-07-23",
+    "title": "Paul Mullin Signs",
+    "description": "League Two top scorer Paul Mullin turns down EFL offers to sign for non-league Wrexham, signalling the club's ambition.",
+    "category": "signing"
+  },
+  {
+    "date": "2022-01-24",
+    "title": "Ollie Palmer Arrives",
+    "description": "Ollie Palmer signs from AFC Wimbledon for a reported club-record fee, going on to score 16 goals in 26 games.",
+    "category": "signing"
+  },
+  {
+    "date": "2022-05-28",
+    "title": "Playoff Heartbreak",
+    "description": "After finishing 2nd in the National League, Wrexham lose a dramatic single-leg playoff semi-final to Grimsby Town 5-4 after extra time, with Luke Waterfall scoring a 119th-minute winner.",
+    "category": "match"
+  },
+  {
+    "date": "2022-06-29",
+    "title": "The Racecourse Comes Home",
+    "description": "The club purchases the Racecourse Ground from Wrexham Glynd\u0175r University, securing the stadium's future.",
+    "category": "milestone"
+  },
+  {
+    "date": "2022-08-24",
+    "title": "The Documentary Premieres",
+    "description": "The hit documentary series about the club premieres on FX, bringing global attention to Wrexham and the town.",
+    "category": "milestone"
+  },
+  {
+    "date": "2022-12-09",
+    "title": "A Royal Visit",
+    "description": "King Charles III and Queen Consort Camilla visit Wrexham and the club, further raising the profile of the town.",
+    "category": "milestone"
+  },
+  {
+    "date": "2023-01-07",
+    "title": "FA Cup Giant-Killing",
+    "description": "Wrexham beat Championship side Coventry City 4-3 in the FA Cup Third Round, then drew 3-3 with Sheffield United in a thrilling Fourth Round tie before losing the replay 3-1 at Bramall Lane.",
+    "category": "match"
+  },
+  {
+    "date": "2023-03-23",
+    "title": "Ben Foster Signs",
+    "description": "Former England goalkeeper Ben Foster comes out of retirement at 39 to sign for Wrexham, bringing Premier League experience to the fifth tier.",
+    "category": "signing"
+  },
+  {
+    "date": "2023-04-22",
+    "title": "National League Champions!",
+    "description": "Wrexham beat Boreham Wood 3-1 to clinch the National League title with a record 111 points, ending a 15-year exile from the EFL. Paul Mullin scores 38 league goals.",
+    "category": "promotion"
+  },
+  {
+    "date": "2024-04-13",
+    "title": "Back-to-Back Promotion!",
+    "description": "Wrexham thrash Forest Green Rovers 6-0 to clinch automatic promotion to League One. Two promotions in two seasons \u2014 the dream keeps growing.",
+    "category": "promotion"
+  },
+  {
+    "date": "2024-10-30",
+    "title": "Valued at \u00a3100 Million",
+    "description": "New investors acquire a minority stake in the club, reportedly valuing Wrexham AFC at around \u00a3100 million \u2014 up from an estimated \u00a32 million at the time of takeover.",
+    "category": "milestone"
+  },
+  {
+    "date": "2025-04-26",
+    "title": "Three in a Row \u2014 Championship Bound!",
+    "description": "Wrexham beat Charlton Athletic 3-0 to seal promotion to the Championship \u2014 becoming the first team ever to achieve three consecutive promotions in England's top five divisions.",
+    "category": "promotion"
+  }
+]

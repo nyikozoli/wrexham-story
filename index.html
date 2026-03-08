@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Wrexham Story — An Unofficial Fan Tribute</title>
+  <meta name="description" content="An unofficial fan tribute documenting the incredible journey of Wrexham AFC since 2020. Three consecutive promotions from the National League to the Championship.">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Skip to Content (Accessibility) -->
+  <a href="#about" class="skip-link">Skip to content</a>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">The Wrexham Story</a>
+      <ul class="nav__links">
+        <li><a href="#about" class="nav__link" data-section="about">The Takeover</a></li>
+        <li><a href="#timeline" class="nav__link" data-section="timeline">Timeline</a></li>
+        <li><a href="#seasons" class="nav__link" data-section="seasons">Seasons</a></li>
+        <li><a href="#players" class="nav__link" data-section="players">Players</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Disclaimer Banner -->
+  <div class="disclaimer-banner">
+    Unofficial fan site — not affiliated with or endorsed by Wrexham AFC.
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <div class="hero__badge">A Fan Tribute</div>
+      <h1 class="hero__title">The Wrexham<br>Story</h1>
+      <p class="hero__subtitle">From the fifth tier of English football to the Championship.<br>Three promotions. Five years. The impossible rise, powered by Hollywood.</p>
+      <div class="hero__scroll-indicator">
+        <span>Scroll to explore</span>
+        <div class="hero__arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About the Takeover -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">November 2020</span>
+        <h2 class="section__title">The Takeover</h2>
+      </div>
+      <div class="about__content reveal">
+        <div class="about__text">
+          <p class="about__lead">In February 2021, Hollywood stars <strong>Ryan Reynolds</strong> and <strong>Rob McElhenney</strong> completed their takeover of Wrexham AFC — the third-oldest professional football club in the world, languishing in the fifth tier of English football.</p>
+          <p>What began as a seemingly unlikely venture — two A-list actors buying a small Welsh club — quickly became one of the most remarkable stories in football history. With genuine investment, smart recruitment, and an infectious enthusiasm that united an entire town, they set Wrexham on a path that nobody could have predicted.</p>
+          <p>Three consecutive promotions. Record attendances. A hit documentary series. A club reportedly valued at £100 million. And a community reborn. This is the story of how Wrexham went from non-league obscurity to the Championship — the first team ever to achieve three successive promotions in England's top five divisions.</p>
+        </div>
+        <div class="about__stats">
+          <div class="about__stat">
+            <span class="about__stat-number" data-count="3">0</span>
+            <span class="about__stat-label">Promotions</span>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-number" data-count="4">0</span>
+            <span class="about__stat-label">Leagues Climbed</span>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-number" data-count="2020">0</span>
+            <span class="about__stat-label">Year of Takeover</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="section section--alt" id="timeline">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">2020 — Present</span>
+        <h2 class="section__title">The Journey</h2>
+        <p class="section__subtitle">Key moments that defined Wrexham's incredible rise.</p>
+      </div>
+      <div class="timeline" id="timelineContainer">
+        <!-- Populated by js/timeline.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Seasons -->
+  <section class="section" id="seasons">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">Season by Season</span>
+        <h2 class="section__title">The Climb</h2>
+        <p class="section__subtitle">From the National League to the Championship — every step of an unprecedented ascent, and the journey continues.</p>
+      </div>
+      <div class="seasons" id="seasonsContainer">
+        <!-- Populated by js/seasons.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Notable Players -->
+  <section class="section section--alt" id="players">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">The Squad</span>
+        <h2 class="section__title">Key Players</h2>
+        <p class="section__subtitle">The players who made the dream a reality.</p>
+      </div>
+      <div class="players" id="playersContainer">
+        <!-- Populated by js/players.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__content">
+        <p class="footer__tagline">Up the Town!</p>
+        <p class="footer__credit">A tribute to Wrexham AFC and the incredible community behind the club.</p>
+        <p class="footer__note">This is an unofficial fan-made site. Not affiliated with or endorsed by Wrexham AFC.</p>
+        <p class="footer__note">Wrexham AFC is a trademark of its respective owners. <em>Welcome to Wrexham</em> is a trademark of FX Networks/Disney. All statistics are believed to be accurate but are not guaranteed.</p>
+        <p class="footer__note"><a href="privacy.html" class="footer__link">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/timeline.js"></script>
+  <script src="js/seasons.js"></script>
+  <script src="js/players.js"></script>
+  <script src="js/effects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
